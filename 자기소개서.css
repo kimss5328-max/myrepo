@@ -1,0 +1,61 @@
+td{
+  color: aliceblue;
+  font-family: 궁서체;
+  border-color: black;
+
+  padding: 10px;
+  border-radius: 10px;
+  
+
+}
+body{
+  text-align: center;
+  background-color: blanchedalmond;
+}
+h1{
+  color: cornflowerblue;
+}
+table{
+  border-radius: 10px;
+  background-color: grey;
+}
+.cat{
+  border-radius: 40%;
+  width: 600px;
+}
+
+div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.oii{
+  width: 300px;
+    border-radius: 50%;
+}
+
+.oii:hover{
+  animation-name: flip;
+  animation-duration: .1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction:alternate;
+}
+
+@keyframes flip {
+  0%   { transform: perspective(400px) rotateY(0); }
+  25%  {border-radius: 60px;}
+  50%  { transform: perspective(400px) rotateY(180deg); }
+  75%  {transform: translateY(-30px)}
+  100% { transform: perspective(400px) rotateY(360deg); }
+}
+
+@keyframes bounce {
+  0%, 100%{
+    
+  }
+  50%{
+    
+  }
+}
