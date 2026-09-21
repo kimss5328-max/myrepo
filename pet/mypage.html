@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🐾 반려동물 털 정보</title>
+
+  <link rel="stylesheet" href="mypage.css">
+  <script src="mypage.js" defer></script>
+</head>
+
+<body>
+
+  <header>
+    <h1>🐾 반려동물 품종 탐색</h1>
+    <p>털의 구조와 길이를 선택해 보세요!</p>
+  </header>
+
+  <main class="container">
+
+    <!-- 고양이 -->
+    <section class="pet-card cat-card">
+
+      <div class="pet-title">
+        <span class="pet-icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-YZtJiFk7dDQPgmMjAg7Z_a8RIH8RUAdDy7w108qcEA&s=10"></span>
+        <div>
+          <h2>고양이 품종</h2>
+          <p>고양이의 털 정보를 확인해보세요.</p>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3>🧶 털 구조</h3>
+
+        <div class="button-group">
+          <button class="pet-button double"
+                  onclick="Double_Coat_cat()">
+            이중모
+          </button>
+
+          <button class="pet-button single"
+                  onclick="Single_Coat_cat()">
+            단일모
+          </button>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3>✂️ 털 길이</h3>
+
+        <div class="button-group">
+          <button class="pet-button long"
+                  onclick="long_cat()">
+            장모종
+          </button>
+
+          <button class="pet-button short"
+                  onclick="short_cat()">
+            단모종
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+
+    <!-- 강아지 -->
+    <section class="pet-card dog-card">
+
+      <div class="pet-title">
+        <span class="pet-icon"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSyP5IEEaT3tWuKoPGmnRAjbPXcxITwH7Gsgw77KKA9Q&s=10"></span>
+        <div>
+          <h2>강아지 품종</h2>
+          <p>강아지의 털 정보를 확인해보세요.</p>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3>🧶 털 구조</h3>
+
+        <div class="button-group">
+          <button class="pet-button double"
+                  onclick="Double_Coat_dog()">
+            이중모
+          </button>
+
+          <button class="pet-button single"
+                  onclick="Single_Coat_dog()">
+            단일모
+          </button>
+        </div>
+      </div>
+
+      <div class="category">
+        <h3>✂️ 털 길이</h3>
+
+        <div class="button-group">
+          <button class="pet-button long"
+                  onclick="long_dog()">
+            장모종
+          </button>
+
+          <button class="pet-button short"
+                  onclick="short_dog()">
+            단모종
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>🐾 원하는 항목을 클릭하면 Google 이미지 검색 결과가 열립니다.</p>
+  </footer>
+
+</body>
+</html>

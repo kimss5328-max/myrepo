@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", "Noto Sans KR", sans-serif;
+  background: linear-gradient(135deg, #fff7ed, #fef3c7);
+  color: #333;
+  min-height: 100vh;
+}
+
+
+/* --------------------
+   상단
+-------------------- */
+
+header {
+  text-align: center;
+  padding: 60px 20px 35px;
+}
+
+header h1 {
+  font-size: 38px;
+  color: #4b3621;
+  margin-bottom: 12px;
+}
+
+header p {
+  color: #777;
+  font-size: 16px;
+}
+
+
+/* --------------------
+   전체 컨테이너
+-------------------- */
+
+.container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+
+/* --------------------
+   동물 카드
+-------------------- */
+
+.pet-card {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 25px;
+  padding: 30px;
+
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08);
+
+  transition: 0.3s ease;
+}
+
+.pet-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.13);
+}
+
+
+/* 고양이 카드 */
+
+.cat-card {
+  border-top: 7px solid #f6a6c1;
+}
+
+
+/* 강아지 카드 */
+
+.dog-card {
+  border-top: 7px solid #9ecbff;
+}
+
+
+/* --------------------
+   제목
+-------------------- */
+
+.pet-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+
+  margin-bottom: 30px;
+}
+
+.pet-icon {
+  font-size: 55px;
+
+  background: #fff7ed;
+  width: 80px;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+}
+img{
+  width: 80px;
+  height: 80px;
+}
+.pet-title h2 {
+  font-size: 25px;
+  margin-bottom: 7px;
+  color: #444;
+}
+
+.pet-title p {
+  color: #999;
+  font-size: 14px;
+}
+
+
+/* --------------------
+   카테고리
+-------------------- */
+
+.category {
+  margin-top: 25px;
+}
+
+.category h3 {
+  font-size: 17px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+
+/* --------------------
+   버튼
+-------------------- */
+
+.button-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.pet-button {
+  border: none;
+  padding: 16px 10px;
+
+  border-radius: 15px;
+
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+
+/* 마우스 올렸을 때 */
+
+.pet-button:hover {
+  transform: translateY(-3px);
+  filter: brightness(0.96);
+}
+
+
+/* 클릭할 때 */
+
+.pet-button:active {
+  transform: scale(0.95);
+}
+
+
+/* 이중모 */
+
+.double {
+  background: #ffe0e9;
+  color: #c94f75;
+}
+
+
+/* 단일모 */
+
+.single {
+  background: #e3f2fd;
+  color: #39739d;
+}
+
+
+/* 장모 */
+
+.long {
+  background: #fff0c2;
+  color: #a87500;
+}
+
+
+/* 단모 */
+
+.short {
+  background: #dcfce7;
+  color: #388e3c;
+}
+
+
+/* --------------------
+   푸터
+-------------------- */
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  color: #999;
+  font-size: 14px;
+}
