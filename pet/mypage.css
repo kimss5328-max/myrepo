@@ -12,10 +12,6 @@ body {
 }
 
 
-/* --------------------
-   상단
--------------------- */
-
 header {
   text-align: center;
   padding: 60px 20px 35px;
@@ -33,10 +29,6 @@ header p {
 }
 
 
-/* --------------------
-   전체 컨테이너
--------------------- */
-
 .container {
   width: 90%;
   max-width: 1000px;
@@ -48,9 +40,6 @@ header p {
 }
 
 
-/* --------------------
-   동물 카드
--------------------- */
 
 .pet-card {
   background: rgba(255, 255, 255, 0.9);
@@ -68,23 +57,18 @@ header p {
 }
 
 
-/* 고양이 카드 */
 
 .cat-card {
   border-top: 7px solid #f6a6c1;
 }
 
 
-/* 강아지 카드 */
 
 .dog-card {
   border-top: 7px solid #9ecbff;
 }
 
 
-/* --------------------
-   제목
--------------------- */
 
 .pet-title {
   display: flex;
@@ -123,10 +107,6 @@ img{
 }
 
 
-/* --------------------
-   카테고리
--------------------- */
-
 .category {
   margin-top: 25px;
 }
@@ -137,10 +117,6 @@ img{
   margin-bottom: 12px;
 }
 
-
-/* --------------------
-   버튼
--------------------- */
 
 .button-group {
   display: grid;
@@ -163,7 +139,6 @@ img{
 }
 
 
-/* 마우스 올렸을 때 */
 
 .pet-button:hover {
   transform: translateY(-3px);
@@ -171,14 +146,12 @@ img{
 }
 
 
-/* 클릭할 때 */
 
 .pet-button:active {
   transform: scale(0.95);
 }
 
 
-/* 이중모 */
 
 .double {
   background: #ffe0e9;
@@ -186,15 +159,12 @@ img{
 }
 
 
-/* 단일모 */
-
 .single {
   background: #e3f2fd;
   color: #39739d;
 }
 
 
-/* 장모 */
 
 .long {
   background: #fff0c2;
@@ -202,17 +172,12 @@ img{
 }
 
 
-/* 단모 */
-
 .short {
   background: #dcfce7;
   color: #388e3c;
 }
 
 
-/* --------------------
-   푸터
--------------------- */
 
 footer {
   text-align: center;
