@@ -1,0 +1,44 @@
+.cafe_info{
+  background-color: grey;
+}
+.info_in{
+  padding: 10px;
+}
+
+p{
+  margin: 0px;
+}
+nav {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+}
+b{
+  margin: 10px
+}
+
+.tag{
+  background-color: lightgray; display: flex;
+  margin:10px;
+}
+.tag_in{
+  background-color: black; width: 5px;
+}
+th{
+  background-color: lightgray;
+}
+table{
+  text-align: center;
+  width: 100%;
+   border-collapse: collapse;
+}
+.coding_cat{
+  width: 30%; 
+}
+body{
+  margin: 0px;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
